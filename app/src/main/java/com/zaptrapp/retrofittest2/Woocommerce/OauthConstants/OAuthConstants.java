@@ -1,4 +1,4 @@
-package com.woocommerse.OAuth1.OauthConstants;
+package com.zaptrapp.retrofittest2.Woocommerce.OauthConstants;
 
 /**
  * This class contains OAuth constants, used project-wide

@@ -1,4 +1,4 @@
-package com.woocommerse.OAuth1.OauthConstants;
+package com.zaptrapp.retrofittest2.Woocommerce.OauthConstants;
 
 /**
  * Specialized exception that represents a problem in the signature

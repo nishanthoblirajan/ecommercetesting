@@ -1,4 +1,4 @@
-package com.woocommerse.OAuth1.services;
+package com.zaptrapp.retrofittest2.Woocommerce.services;
 
 /**
  * This interfaces for nonce and timestamp

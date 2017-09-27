@@ -1,4 +1,4 @@
-package com.woocommerse.OAuth1.services;
+package com.zaptrapp.retrofittest2.Woocommerce.services;
 
 /**
  * Signs a base string, returning the OAuth signature

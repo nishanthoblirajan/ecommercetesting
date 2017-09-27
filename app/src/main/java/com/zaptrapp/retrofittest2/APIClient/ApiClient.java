@@ -14,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "http://f0be6f41.ngrok.io/";
+    public static final String BASE_URL = "http://dc7dbea4.ngrok.io/";
     private static Retrofit sRetrofit = null;
     public static final String consumerKey    = "ck_355800487551d5f484f2900d93848f1b86c64cfe"; //api key
     public static final String consumerSecret = "cs_22f0f1fe8e656004822a0a59414cb043e111c72a"; //api secret

@@ -2,9 +2,9 @@ package com.zaptrapp.retrofittest2.APIClient;
 
 import android.util.Log;
 
-import com.woocommerse.OAuth1.OauthConstants.ParameterList;
-import com.woocommerse.OAuth1.services.HMACSha1SignatureService;
-import com.woocommerse.OAuth1.services.TimestampServiceImpl;
+import com.zaptrapp.retrofittest2.Woocommerce.OauthConstants.ParameterList;
+import com.zaptrapp.retrofittest2.Woocommerce.services.HMACSha1SignatureService;
+import com.zaptrapp.retrofittest2.Woocommerce.services.TimestampServiceImpl;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

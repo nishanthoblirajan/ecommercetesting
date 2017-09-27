@@ -1,6 +1,6 @@
-package com.woocommerse.OAuth1.utils;
+package com.zaptrapp.retrofittest2.Woocommerce.utils;
 
-import com.woocommerse.OAuth1.OauthConstants.OAuthConstants;
+import com.zaptrapp.retrofittest2.Woocommerce.OauthConstants.OAuthConstants;
 
 import java.util.regex.Pattern;
 

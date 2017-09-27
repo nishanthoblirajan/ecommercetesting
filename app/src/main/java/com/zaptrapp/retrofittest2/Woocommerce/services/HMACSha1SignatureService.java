@@ -1,14 +1,15 @@
-package com.woocommerse.OAuth1.services;
+package com.zaptrapp.retrofittest2.Woocommerce.services;
 
 /**
  * SHA1 SignatureGenerator
  */
+
 import android.util.Base64;
 import android.util.Log;
 
-import com.woocommerse.OAuth1.OauthConstants.OAuthEncoder;
-import com.woocommerse.OAuth1.OauthConstants.OAuthSignatureException;
-import com.woocommerse.OAuth1.utils.Preconditions;
+import com.zaptrapp.retrofittest2.Woocommerce.OauthConstants.OAuthEncoder;
+import com.zaptrapp.retrofittest2.Woocommerce.OauthConstants.OAuthSignatureException;
+import com.zaptrapp.retrofittest2.Woocommerce.utils.Preconditions;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

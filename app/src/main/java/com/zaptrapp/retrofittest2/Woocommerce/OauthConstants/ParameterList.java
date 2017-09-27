@@ -1,4 +1,4 @@
-package com.woocommerse.OAuth1.OauthConstants;
+package com.zaptrapp.retrofittest2.Woocommerce.OauthConstants;
 
 import android.util.Log;
 
