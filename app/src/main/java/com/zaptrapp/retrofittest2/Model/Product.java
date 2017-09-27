@@ -10,7 +10,6 @@ import java.util.List;
 
 public class Product {
 
-
     @SerializedName("id")
     public int id;
     @SerializedName("name")
@@ -114,7 +113,7 @@ public class Product {
     @SerializedName("rating_count")
     public int rating_count;
     @SerializedName("related_ids")
-    public List<Related_ids> related_ids;
+    public List<Integer> related_ids;
     @SerializedName("upsell_ids")
     public List<Upsell_ids> upsell_ids;
     @SerializedName("cross_sell_ids")
@@ -156,9 +155,6 @@ public class Product {
         public String height;
     }
 
-    public static class Related_ids {
-    }
-
     public static class Upsell_ids {
     }
 
@@ -175,12 +171,6 @@ public class Product {
     }
 
     public static class Tags {
-        @SerializedName("id")
-        public int id;
-        @SerializedName("name")
-        public String name;
-        @SerializedName("slug")
-        public String slug;
     }
 
     public static class Images {

@@ -1,4 +1,4 @@
-package com.zaptrapp.retrofittest2.APIClient;
+package com.zaptrapp.retrofittest2.Woocommerce;
 
 import android.util.Log;
 
@@ -15,19 +15,9 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
-//import okhttp3.HttpUrl;
-//import okhttp3.Interceptor;
-//import okhttp3.Request;
-//import okhttp3.Response;
-
-
 /**
- * Created by ramesh on 10/10/16.
+ * Created by nishanth on 27/09/17.
  */
-
-
-
-
 
 public class OAuthInterceptor implements Interceptor {
 

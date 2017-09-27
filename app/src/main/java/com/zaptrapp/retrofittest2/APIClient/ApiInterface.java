@@ -17,6 +17,7 @@ public interface ApiInterface {
     @GET("/wp-json/wc/v2/products/{id}")
     Call<Product> getProduct(@Path("id") int id);
 
+
     @GET("/wp-json/wc/v2/products")
     Call<List<Product>> getProductsList();
 
