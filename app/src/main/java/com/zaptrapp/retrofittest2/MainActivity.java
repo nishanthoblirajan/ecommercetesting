@@ -8,6 +8,9 @@ import android.widget.Toast;
 
 import com.zaptrapp.retrofittest2.APIClient.ApiClient;
 import com.zaptrapp.retrofittest2.APIClient.ApiInterface;
+import com.zaptrapp.retrofittest2.Model.Product;
+
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -27,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         ApiInterface apiInterface =
                 ApiClient.getClient().create(ApiInterface.class);
 
-        Call<Product> call = apiInterface.getProduct(42);
-        call.enqueue(new Callback<Product>() {
+        Call<Product> product = apiInterface.getProduct(42);
+        product.enqueue(new Callback<Product>() {
             @Override
             public void onResponse(Call<Product> call, Response<Product> response) {
                 Log.d("Product Name", response.body().name);
@@ -43,6 +46,21 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        Call<List<Product>> productList = apiInterface.getProductsList();
+        productList.enqueue(new Callback<List<Product>>() {
+            @Override
+            public void onResponse(Call<List<Product>> call, Response<List<Product>> response) {
+                Toast.makeText(MainActivity.this, "Product List", Toast.LENGTH_SHORT).show();
+                textView.append("Total Product List: "+response.body().);
+            }
+
+            @Override
+            public void onFailure(Call<List<Product>> call, Throwable t) {
+                Toast.makeText(MainActivity.this, "Fail", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
     }
 
