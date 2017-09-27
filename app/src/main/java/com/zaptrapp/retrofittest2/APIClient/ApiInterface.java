@@ -23,7 +23,7 @@ public interface ApiInterface {
     Call<List<Product>> getProductsList();
 
     @GET("/wp-json/wc/v2/products/{id}/reviews")
-    Call<List<ProductReview>> getProductReview(@Path("id") int id);
+    Call<List<ProductReview>> getProductReviews(@Path("id") int id);
 
 
 
