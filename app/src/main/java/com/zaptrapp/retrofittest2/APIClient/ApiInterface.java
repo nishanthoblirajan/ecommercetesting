@@ -1,6 +1,7 @@
 package com.zaptrapp.retrofittest2.APIClient;
 
 import com.zaptrapp.retrofittest2.Model.Product;
+import com.zaptrapp.retrofittest2.Model.ProductReview;
 
 import java.util.List;
 
@@ -20,6 +21,10 @@ public interface ApiInterface {
 
     @GET("/wp-json/wc/v2/products")
     Call<List<Product>> getProductsList();
+
+    @GET("/wp-json/wc/v2/products/{id}/reviews")
+    Call<List<ProductReview>> getProductReview(@Path("id") int id);
+
 
 
 
